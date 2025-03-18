@@ -2,6 +2,7 @@ body {
     box-sizing: border-box;
     font-size: 100%; 
     background-color: #595F72; 
+    text-shadow: black;
 }
 
 .flex {
@@ -11,10 +12,44 @@ body {
     align-items: center; 
 }
 
+.space-between {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+
+
+.align-items {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between;
+
+}
+
+.button {
+  border-radius: 12%;
+  background-color: #84A07C; 
+}
+
+
+
+#bio {
+  margin-left: 1vw; 
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
 h1 {
     color: #84A07C;
     text-align: center; 
     
+}
+
+h2 {
+  color: #84A07C;
 }
 
 
@@ -22,7 +57,11 @@ div {
     margin: 2vh; 
   }
 
-input {
+ul {
+  list-style-type: none;
+  }
+
+input.animation {
     animation-duration: 3s;
     animation-name: slide-in;
     background-color: #575D90; 

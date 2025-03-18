@@ -10,27 +10,62 @@
     <h1>Tell me about yourself!</h1>
 
     <form class="flex" method="GET">
-      <div>
-        <label for="name">Name</label>
-        <input
-          type="text"
-          name="Name"
-          id="name"
-          required
-          placeholder="Full Name"
-        />
-      </div>
+      <div class="space-between">
+        <div>
+          <label for="name">Name</label>
+          <input
+            class="animation"
+            type="text"
+            name="Name"
+            id="name"
+            required
+            placeholder="Full Name"
+          />
+        </div>
 
-      <div>
-        <label for="bio">Bio</label>
-        <textarea
-          id="bio"
-          placeholder="Just tell me a little about yourself"
-        ></textarea>
-      </div>
+        <div class="align-items">
+          <label for="bio">Bio</label>
+          <textarea
+            id="bio"
+            placeholder="Just tell me a little about yourself"
+          ></textarea>
+        </div>
 
-      <div>
-        <button type="submit">Submit</button>
+        <div class="space-between">
+          <h2>Fruit you like</h2>
+          <ul>
+            <li>
+              <label for="Strawberry">Strawberry</label>
+              <input
+                type="checkbox"
+                id="Strawberry"
+                name="Strawberry"
+                value="Strawberry"
+              />
+            </li>
+            <li>
+              <label for="apple">apple</label>
+              <input type="checkbox" id="apple" name="apple" value="apple" />
+            </li>
+            <li>
+              <label for="banana">banana</label>
+              <input type="checkbox" id="banana" name="banana" value="banana" />
+            </li>
+            <li>
+              <label for="watermelon">watermelon</label>
+              <input
+                type="checkbox"
+                id="watermelon"
+                name="watermelon"
+                value="watermelon"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <button class="button" type="submit">Submit</button>
+        </div>
       </div>
     </form>
   </body>
