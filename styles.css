@@ -40,7 +40,7 @@ input {
   
   @keyframes slide-in {
     from {
-      translate: 150vw 350vw;
+      translate: 150vh 100vh;
       scale: 200% 1;
     }
   
